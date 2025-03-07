@@ -7,10 +7,10 @@
                             <div class="de-flex-col">
                                 <!-- logo begin -->
                                 <div id="logo">
-                                    <a href="index.html">
-                                        <img class="logo-main" src="images/logo-black.webp" alt="" >
-                                        <img class="logo-scroll" src="images/logo-black.webp" alt="" >
-                                        <img class="logo-mobile" src="images/logo-black.webp" alt="" >
+                                    <a href="{{route('/')}}">
+                                        <img class="logo-main" src="{{ asset('frontend/images/logoweb.svg') }}" alt="" >
+                                        <img class="logo-scroll" src="{{ asset('frontend/images/logoweb.svg') }}" alt="" >
+                                        <img class="logo-mobile" src="{{ asset('frontend/images/logoweb.svg') }}" alt="" >
                                     </a>
                                 </div>
                                 <!-- logo close -->
@@ -94,7 +94,7 @@
                                 <div class="menu_side_area">
                                     <div class="h-phone xs-hide">
                                         <span>Need Help?</span>
-                                        <h5>+1 5000 6000</h5>
+                                        <h5>+44 7412 080888</h5>
                                     </div>
                                     <a href="book-service.html" class="btn-main">Book Service Now</a>
                                     <span id="menu-btn"></span>
