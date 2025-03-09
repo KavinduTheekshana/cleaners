@@ -18,6 +18,7 @@ return new class extends Migration
             $table->json('services_list')->nullable(); // JSON field for storing a list of services
             $table->boolean('status')->default(true); // Active or Inactive
             $table->string('image')->nullable(); // Image field
+            $table->string('slug')->unique(); // Slug field
             $table->timestamps();
         });
     }

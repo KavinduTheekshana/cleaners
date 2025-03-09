@@ -1,5 +1,5 @@
         <!-- header begin -->
-        <header class="header-light transparent">
+        <header class="header-light {{ request()->is('/') ? 'transparent' : '' }}">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">

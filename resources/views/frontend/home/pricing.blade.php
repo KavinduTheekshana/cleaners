@@ -19,8 +19,8 @@
                         <h5 class="mb-0">One Time or Monthly</h5>
                         <div class="spacer-30"></div>
                         <div class="ms-5 fw-500">
-                            <span>$</span>
-                            <span class="fs-64 fw-bold text-dark">49</span>
+                            <span>£</span>
+                            <span class="fs-64 fw-bold text-dark">39</span>
                             <span>/Hour/Cleaner</span>
                         </div>
                         <div class="spacer-20"></div>
@@ -39,8 +39,8 @@
                         <h5 class="mb-0">Recurring (Weekly, Biweekly)</h5>
                         <div class="spacer-30"></div>
                         <div class="ms-5 fw-500">
-                            <span>$</span>
-                            <span class="fs-64 fw-bold text-dark">43</span>
+                            <span>£</span>
+                            <span class="fs-64 fw-bold text-dark">33</span>
                             <span>/Hour/Cleaner</span>
                         </div>
                         <div class="spacer-20"></div>
@@ -59,8 +59,8 @@
                         <h5 class="mb-0">Office &amp; Commercial</h5>
                         <div class="spacer-30"></div>
                         <div class="ms-5 fw-500">
-                            <span>$</span>
-                            <span class="fs-64 fw-bold text-dark">40</span>
+                            <span>£</span>
+                            <span class="fs-64 fw-bold text-dark">30</span>
                             <span>/Hour/Cleaner</span>
                         </div>
                         <div class="spacer-20"></div>
