@@ -52,37 +52,38 @@ class ServiceResource extends Resource
     public static function table(Table $table): Table
     {
         return $table
-        ->columns([
-            Tables\Columns\TextColumn::make('service_name')
-                ->searchable(),
-            Tables\Columns\TextColumn::make('description')
-                ->limit(50)
-                ->searchable(),
-            Tables\Columns\ImageColumn::make('image') // Display the image
-                ->disk('public'),
-            Tables\Columns\IconColumn::make('status')
-                ->boolean(),
-            Tables\Columns\TextColumn::make('created_at')
-                ->dateTime()
-                ->sortable()
-                ->toggleable(isToggledHiddenByDefault: true),
-            Tables\Columns\TextColumn::make('updated_at')
-                ->dateTime()
-                ->sortable()
-                ->toggleable(isToggledHiddenByDefault: true),
-        ])
-        ->filters([
-            //
-        ])
-        ->actions([
-            Tables\Actions\EditAction::make(),
-            Tables\Actions\DeleteAction::make(),
-        ])
-        ->bulkActions([
-            Tables\Actions\BulkActionGroup::make([
-                Tables\Actions\DeleteBulkAction::make(),
-            ]),
-        ]);
+            ->columns([
+                Tables\Columns\TextColumn::make('service_name')
+                    ->searchable(),
+                Tables\Columns\TextColumn::make('description')
+                    ->limit(50)
+                    ->searchable(),
+                Tables\Columns\ImageColumn::make('image') // Display the image
+                    ->rounded(true)
+                    ->disk('public'),
+                Tables\Columns\IconColumn::make('status')
+                    ->boolean(),
+                Tables\Columns\TextColumn::make('created_at')
+                    ->dateTime()
+                    ->sortable()
+                    ->toggleable(isToggledHiddenByDefault: true),
+                Tables\Columns\TextColumn::make('updated_at')
+                    ->dateTime()
+                    ->sortable()
+                    ->toggleable(isToggledHiddenByDefault: true),
+            ])
+            ->filters([
+                //
+            ])
+            ->actions([
+                Tables\Actions\EditAction::make(),
+                Tables\Actions\DeleteAction::make(),
+            ])
+            ->bulkActions([
+                Tables\Actions\BulkActionGroup::make([
+                    Tables\Actions\DeleteBulkAction::make(),
+                ]),
+            ]);
     }
 
     public static function getRelations(): array

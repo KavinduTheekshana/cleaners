@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->text('message');
+            $table->string('image')->nullable(); // Image field
             $table->boolean('status')->default(true); // Active or Inactive
             $table->timestamps();
         });
