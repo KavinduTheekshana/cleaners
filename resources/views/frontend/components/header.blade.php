@@ -26,7 +26,7 @@
                                         <span>Need Help?</span>
                                         <h5>+44 7412 080888</h5>
                                     </div>
-                                    <a href="book-service.html" class="btn-main">Book Service Now</a>
+                                    <a href="{{route('booking')}}" class="btn-main">Book Service Now</a>
                                     <span id="menu-btn"></span>
                                 </div>
                             </div>
