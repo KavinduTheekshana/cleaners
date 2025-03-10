@@ -7,5 +7,10 @@
     @include('frontend.home.about')
     @include('frontend.home.testimonial')
     @include('frontend.home.count')
+    @include('frontend.home.trust')
+
+
+
+
 
 @endsection
