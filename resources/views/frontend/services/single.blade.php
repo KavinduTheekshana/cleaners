@@ -89,7 +89,7 @@
                         </div>
 
                         <div class="text-center">
-                            <a class="btn-main" href="book-service.html">Book Now</a>
+                            <a class="btn-main" href="{{route('booking')}}">Book Now</a>
                         </div>
                         <div class="spacer-20"></div>
                     </div>
@@ -109,7 +109,7 @@
                         </div>
 
                         <div class="text-center">
-                            <a class="btn-main" href="book-service.html">Book Now</a>
+                            <a class="btn-main" href="{{route('booking')}}">Book Now</a>
                         </div>
                         <div class="spacer-20"></div>
                     </div>
@@ -129,7 +129,7 @@
                         </div>
 
                         <div class="text-center">
-                            <a class="btn-main" href="book-service.html">Book Now</a>
+                            <a class="btn-main" href="{{route('booking')}}">Book Now</a>
                         </div>
                         <div class="spacer-20"></div>
                     </div>

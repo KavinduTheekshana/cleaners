@@ -12,7 +12,7 @@
 
                     <div class="spacer-10"></div>
 
-                    <a class="btn-main wow fadeInUp" data-wow-delay=".6s" href="book-service.html">Book Cleaning
+                    <a class="btn-main wow fadeInUp" data-wow-delay=".6s" href="{{route('booking')}}">Book Cleaning
                         Service</a>
                     <div class=""></div>
 

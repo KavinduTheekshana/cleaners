@@ -10,6 +10,7 @@ Route::get('/', [HomeController::class, 'index'])->name('/');
 Route::get('about', [HomeController::class, 'about'])->name('about');
 Route::get('services', [HomeController::class, 'services'])->name('contact');
 Route::get('contact', [HomeController::class, 'contact'])->name('contact');
+Route::get('services', [HomeController::class, 'services'])->name('services');
 Route::get('booking', [HomeController::class, 'booking'])->name('booking');
 Route::get('/services/{slug}', [ServiceController::class, 'show'])->name('service.single');
 

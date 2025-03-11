@@ -29,4 +29,9 @@ class HomeController extends Controller
     {
         return view('frontend.contact.index');
     }
+    public function services()
+    {
+        $services = Service::where('status', true)->get(); // Fetch only active services
+        return view('frontend.services.index', compact('services'));
+    }
 }
