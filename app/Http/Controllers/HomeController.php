@@ -15,6 +15,11 @@ class HomeController extends Controller
         return view('frontend.home.index', compact('services','testimonials'));
     }
 
+    public function about()
+    {
+        return view('frontend.about.index');
+    }
+
     public function booking()
     {
         return view('frontend.bookings.index');

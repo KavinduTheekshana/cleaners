@@ -18,6 +18,7 @@
                             <div class="de-flex-col header-col-mid">
                                 <ul id="mainmenu">
                                     <li><a class="menu-item {{ request()->is('/') ? 'active' : '' }}" href="{{route('/')}}">Home</a></li>
+                                    <li><a class="menu-item {{ request()->is('about') ? 'active' : '' }}" href="{{route('about')}}">About</a></li>
                                 </ul>
                             </div>
                             <div class="de-flex-col">
