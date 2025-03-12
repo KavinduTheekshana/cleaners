@@ -23,10 +23,11 @@
                           <div class="widget">
                               <h5>Company</h5>
                               <ul>
-                                  <li><a href="index.html">Home</a></li>
-                                  <li><a href="services.html">Our Services</a></li>
-                                  <li><a href="about.html">About Us</a></li>
-                                  <li><a href="contact.html">Contact</a></li>
+                                  <li><a href="{{route('/')}}">Home</a></li>
+                                  <li><a href="{{route('about')}}">About Us</a></li>
+                                  <li><a href="{{route('how')}}">How It Works</a></li>
+                                  <li><a href="{{route('services')}}">Services</a></li>
+                                  <li><a href="{{route('contact')}}">Contact</a></li>
                               </ul>
                           </div>
                       </div>
@@ -70,10 +71,10 @@
                           <div class="de-flex-col">
                               Copyright {{ date('Y') }}  - Ceylon Deep Cleaners
                           </div>
-                          <ul class="menu-simple">
+                          {{-- <ul class="menu-simple">
                               <li><a href="#">Terms &amp; Conditions</a></li>
                               <li><a href="#">Privacy Policy</a></li>
-                          </ul>
+                          </ul> --}}
                       </div>
                   </div>
               </div>
