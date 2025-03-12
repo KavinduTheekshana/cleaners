@@ -34,4 +34,9 @@ class HomeController extends Controller
         $services = Service::where('status', true)->get(); // Fetch only active services
         return view('frontend.services.index', compact('services'));
     }
+    public function how()
+    {
+        $testimonials = Testimonial::where('status', true)->get(); // Fetch only active services
+        return view('frontend.how.index', compact('testimonials'));
+    }
 }
