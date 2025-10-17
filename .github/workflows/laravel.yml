@@ -17,7 +17,7 @@ jobs:
           remote_path: ./httpdocs/
           remote_host: ${{ secrets.FTP_HOST }}
           remote_user: ${{ secrets.FTP_USERNAME }}
-          remote_password: ${{ secrets.FTP_PASSWORD }}
+          remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
           remote_port: 22
       
       - name: 🎼 Run Composer Update
@@ -25,7 +25,7 @@ jobs:
         with:
           host: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
           script: |
             cd httpdocs
