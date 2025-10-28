@@ -1,7 +1,5 @@
-@@ -1,20 +1,21 @@
 on: push
 name: 🚀 Deploy website via SFTP
-name: 🚀 Deploy website on push
 
 jobs:
   web-deploy:
